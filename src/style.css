@@ -16,7 +16,7 @@ body{
 
 .cartao{
     background-color: #070d12;
-    width: 350px;
+    width: 370px;
     border: 2px solid #e126d9;
     border-radius: 10px;
     overflow: hidden;
@@ -37,7 +37,6 @@ body{
 
 .cartao .minhas-informacoes .nome{
     font-size: 26px;
-    letter-spacing: 2px;
 }
 
 .cartao .minhas-informacoes .cargo{
