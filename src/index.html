@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rolagem.css">
 
     <title>Mini Portfólio</title>
   </head>
@@ -24,37 +25,37 @@
 
       <div class="conteudo">
         <ul class="abas">
-          <li class="aba selecionado">
+          <li class="aba selecionado" id="sobre-mim">
             <img src="img/sobre.gif" alt="ícone de sobre mim" />
           </li>
-          <li class="aba">
+          <li class="aba" id="minhas-redes">
             <img src="img/coracao.gif" alt="ícone de redes sociais" />
           </li>
         </ul>
 
         <div class="informacoes-abas">
-          <div class="informacao selecionado">
+          <div class="informacao selecionado" id="informacao-sobre-mim">
             <h3 class="sub-titulo">Sobre</h3>
 
             <div class="descricao">
-              <p>Oi! meu nome é João Keuwe, seja bem-vindo(a)!</p>
+              <p>Oi! meu nome é João Keuwe, seja bem-vindo(a)!</p> <br>
 
               <p>
-                Sou uma pessoa apaixonada pela programação desde que eu tinha 15
-                anos. Sempre tive o sonho de trabalhar com programação e
-                atualmente comecei a colocar esse sonho em prática estudando
-                <span>HTML, CSS e JavaScript</span>. Gosto muito de café (até demais), e meus
-                principais hobbies são jogar MMO RPG, ver animes e séries.
+                Sou uma pessoa apaixonada pela programação, games, eventos de tecnologia e também de  livros.<br><br>
+                Sempre tive o sonho de trabalhar com programação e
+                atualmente comecei a colocar esse sonho em prática, coloco como minhas principais stacks:
+                <span>HTML, CSS e JavaScript, React, nodeJs. </span><br><br>
+                Meus principais hobbies são jogar jogar Video game, filmes e séries.
               </p>
             </div>
           </div>
 
-          <div class="informacao">
+          <div class="informacao" id="informacao-minhas-redes">
             <h3 class="sub-titulo">Minhas redes</h3>
 
             <ul class="redes-sociais">
                 <li>
-                    <a href="#" target="_blank" class="curriculo">Currículo</a>
+                    <a href="img/CV, João keuwe front end jr.pdf" target="_blank" download="" class="curriculo">Currículo</a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/joaokeuwe/" target="_blank" class="linkedin">LinkedIn</a>
@@ -68,5 +69,7 @@
         </div>
       </div>
     </main>
+
+    <script src="index.js"></script>
   </body>
 </html>
