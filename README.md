@@ -1,4 +1,4 @@
-<h1 align='center' > Mini Portifólio pessoal
+<h1 align='center' > Mini Portifólio pessoal 🖼️
 <h1/>
 
  <div>
