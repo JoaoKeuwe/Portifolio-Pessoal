@@ -39,8 +39,10 @@ body {
 }
 
 .cartao .minhas-informacoes img {
-  border-radius: 50px;
-  border: 4px solid #02d08f;
+  border-radius: 50%;
+  background-color: #5b0477cb;
+
+  /* border: 4px solid #02d08f; */
   width: 200px;
 }
 
